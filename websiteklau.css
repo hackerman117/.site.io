@@ -1,0 +1,89 @@
+div{
+	background-color: #f7f7f7;
+}
+
+title{
+	font-family: "Lucida Handwriting";
+}
+
+h1{
+	background: black;
+	color: white;
+	font-variant: small-caps;
+	margin-left: 30%;
+	padding: 20px;
+	width: 676px;
+}
+
+.post{
+	border: 5px solid black;
+	margin-top: 50px;
+	margin-left: 30%;
+	padding: 20px;
+	width: 666px;
+}
+
+.smallcaps{
+	font-variant: small-caps;	
+}
+
+footer{
+	margin-top: 100px
+}
+
+.quote{
+	border-left: 15px solid #555a43;
+	height: 15px;
+	padding-left: 30px;
+	font-family: "Lucida Handwriting";
+}
+
+.author{
+	font-family: "Helvetica", sans-serif;
+	text-align: right;
+}
+
+hr{ 
+	color: gray;
+}
+
+
+.horizontaltext{
+	transform: rotate(-45deg);
+	text-align: center;
+	line-height: 99px;
+
+}
+
+.square{
+	margin-left: 47%;
+	border: 7px;
+	background-color: black;
+	width: 99px;
+	height: 99px;
+	transform: rotate(0.125turn);
+	color: white;
+}
+
+.square:hover{
+	animation-name: anime;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+}
+
+@keyframes anime {
+	0% {background-color: yellow;}
+	25% {background-color: red; transform: rotate(-0.125turn);}
+	50% {background-color: green;}
+	75% {background-color: blue;}
+	100% {background-color: black; transform: rotate(0.125turn)}
+}
+	
+p:first-letter{
+	font-family: "Lucida Handwriting";
+	font-size: 250%;
+}
+
+.images {
+	float:left;
+	}
